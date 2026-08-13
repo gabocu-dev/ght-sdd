@@ -1,0 +1,21 @@
+name: handball-goalkeeper-stats-app
+
+steps:
+  - name: Verify Node.js
+    run: node --version
+
+  - name: Verify npm
+    run: npm --version
+
+  - name: Install dependencies if package.json exists
+    run: |
+      if [ -f package.json ]; then
+        npm install
+      else
+        echo "No package.json yet; skipping dependency install"
+      fi
+
+  - name: Print workspace files
+    run: |
+      pwd
+      ls -la
