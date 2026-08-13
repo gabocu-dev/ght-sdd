@@ -36,5 +36,7 @@
   "T-035": { "issue": 35, "title": "T-035: Add unit tests for undo-last-event behavior", "phase": "Phase 2: Integration", "story": "US-004" },
   "T-036": { "issue": 36, "title": "T-036: Add unit tests for comparison metric generation", "phase": "Phase 2: Integration", "story": "US-006" },
   "T-037": { "issue": 37, "title": "T-037: Add setup-to-summary integration coverage", "phase": "Phase 2: Integration", "story": "US-005" },
-  "T-038": { "issue": 38, "title": "T-038: Add history reload and comparison integration coverage", "phase": "Phase 2: Integration", "story": "US-006" }
+  "T-038": { "issue": 38, "title": "T-038: Add history reload and comparison integration coverage", "phase": "Phase 2: Integration", "story": "US-006" },
+  "T-039": { "issue": 39, "title": "T-039: Add settings screen for goalkeeper catalog management", "phase": "Phase 3: Settings catalog", "story": "Settings" },
+  "T-040": { "issue": 40, "title": "T-040: Add settings screen for tournament catalog management", "phase": "Phase 3: Settings catalog", "story": "Settings" }
 }

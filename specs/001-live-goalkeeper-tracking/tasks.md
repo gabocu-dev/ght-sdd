@@ -1,3 +1,6 @@
+<!-- SDD Artifact | Version: 1.0 | Phase: Tasks | Updated: 2026-08-13 -->
+<!-- Project: handball-goalkeeper-stats-app | Feature: 001-live-goalkeeper-tracking -->
+
 # Task Breakdown: 001 Live Goalkeeper Tracking
 
 ## Epic Goal
@@ -53,6 +56,10 @@ Deliver a React Native + Expo mobile app that lets coaches or team staff track d
 - **T-037**: Add integration coverage for setup-to-summary flow.
 - **T-038**: Add integration coverage for history reload and comparison flow.
 
+### Settings Catalog Management
+- **T-039**: Build a settings screen for goalkeeper catalog management.
+- **T-040**: Build a settings screen for tournament catalog management.
+
 ## Dependency Graph
 - **T-002** depends on **T-001**
 - **T-003** depends on **T-001**
@@ -91,6 +98,8 @@ Deliver a React Native + Expo mobile app that lets coaches or team staff track d
 - **T-036** depends on **T-014**
 - **T-037** depends on **T-015**, **T-021**, **T-025**, **T-026**
 - **T-038** depends on **T-027**, **T-029**, **T-033**
+- **T-039** depends on **T-002**, **T-003**, **T-007**
+- **T-040** depends on **T-002**, **T-003**, **T-007**
 
 ## Mapping to User Stories
 - **US-001** -> **T-005**, **T-007**, **T-010**, **T-015**, **T-031**
@@ -99,6 +108,7 @@ Deliver a React Native + Expo mobile app that lets coaches or team staff track d
 - **US-004** -> **T-013**, **T-024**, **T-035**
 - **US-005** -> **T-025**, **T-026**, **T-037**
 - **US-006** -> **T-014**, **T-027**, **T-028**, **T-029**, **T-036**, **T-038**
+- **Settings** -> **T-039**, **T-040**
 
 ## Suggested Execution Order
 1. **T-001** to **T-004**
@@ -106,3 +116,4 @@ Deliver a React Native + Expo mobile app that lets coaches or team staff track d
 3. **T-015** to **T-025**
 4. **T-026** to **T-030**
 5. **T-031** to **T-038**
+6. **T-039** to **T-040**
